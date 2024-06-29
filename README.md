@@ -14,7 +14,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 
 ## Demo
 
-Check out the live demo of my portfolio [here](https://your-portfolio-link.com).
+Check out the live demo of my portfolio [here](https://adityasanap1821.github.io/Portfolio/).
 
 ## Features
 
