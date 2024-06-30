@@ -47,7 +47,7 @@ Check out the live demo of my portfolio [here](https://adityasanap1821.github.io
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/AdityaSanap1821/Portfolio.git
 
 2. Navigate to the project directory:
    
@@ -83,7 +83,7 @@ Check out the live demo of my portfolio [here](https://adityasanap1821.github.io
 1. You can clone the project with the following command:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/AdityaSanap1821/Portfolio.git
 
 ### Forking the Repository
 
@@ -93,7 +93,7 @@ To make changes, please fork the repository:
 2. Clone your forked repository:
    
    ```bash
-    git clone https://github.com/your-username/your-portfolio.git
+    git clone https://github.com/AdityaSanap1821/Portfolio.git
 
 ### Making Changes
 1. Create a new branch for your changes:
