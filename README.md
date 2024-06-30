@@ -130,5 +130,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Feel free to reach out to me via the contact form on the website or through the following channels:
 
 - **Email**: adityas182107@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/aditya-sanap-ams1821/)
-- **GitHub**: [Your GitHub Profile](https://github.com/AdityaSanap1821)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/aditya-sanap-ams1821/)
+- **GitHub**: [GitHub Profile](https://github.com/AdityaSanap1821)
