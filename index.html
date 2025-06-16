@@ -50,6 +50,10 @@
       <div class="nav-menu" id="myNavMenu">
         <ul class="nav_menu_list">
           <li class="nav_list">
+            <a href="https://adityasanap1821.github.io/portfolio_v2/" class="nav-link">Portfolio v2</a>
+            <div class="circle"></div>
+          </li>
+          <li class="nav_list">
             <a href="#home" class="nav-link active-link">Home</a>
             <div class="circle"></div>
           </li>
@@ -81,7 +85,6 @@
         <i class="uil uil-bars" onclick="myMenuFunction()"></i>
       </div>
     </nav>
-
     <!-- -------------- MAIN ---------------- -->
     <main class="wrapper">
       <!-- -------------- FEATURED BOX ---------------- -->
@@ -644,6 +647,58 @@
       </footer>
     </main>
 
+    <!-- ===== DIALOG BOX ===== -->
+    <div id="versionDialog" style="
+      position: fixed;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: none; justify-content: center; align-items: center;
+      z-index: 2000;
+    ">
+      <div style="
+        background: #fff;
+        padding: 2rem;
+        max-width: 400px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        font-family: 'Segoe UI', sans-serif;
+      ">
+        <h3 style="margin-bottom: 1rem; color: #1a1a1a;">🚀 New Portfolio Available</h3>
+        <p style="color: #333; font-size: 0.95rem;">
+          A newer and improved version of this portfolio is now live!
+        </p>
+        <br />
+        <a
+          href="https://adityasanap1821.github.io/portfolio_v2/"
+          target="_blank"
+          style="
+            background-color: #1e40af;
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+          "
+        >
+          Visit Portfolio v2 →
+        </a>
+        <br />
+        <button onclick="closeDialog()" style="
+          margin-top: 1rem;
+          background: none;
+          border: none;
+          color: #888;
+          font-size: 0.85rem;
+          cursor: pointer;
+        ">
+          Close this message
+        </button>
+      </div>
+    </div>
+
+
     <!-- ----- TYPING JS Link ----- -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
@@ -652,5 +707,16 @@
 
     <!-- ----- MAIN JS ----- -->
     <script src="main.js"></script>
+
+    <script>
+      function closeDialog() {
+        document.getElementById("versionDialog").style.display = "none";
+      }
+
+      window.addEventListener("load", () => {
+        document.getElementById("versionDialog").style.display = "flex";
+      });
+    </script>
+    
   </body>
 </html>
